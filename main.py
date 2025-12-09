@@ -15,7 +15,7 @@ def main():
     print("--------- Character Count -------")
     for i in char_count_sorted:
         print(f"{i["char"]}: {i["count"]}")
-    #print(char_count)
+    print("============= END ===============")
 
 
 def get_book_text(filepath):
